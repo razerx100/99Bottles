@@ -1,7 +1,8 @@
-from print_song import song_line
+"""time flies"""
 from time import sleep
-bottle_count = 99
-while bottle_count >= 0:
-    print(song_line(bottle_count))
-    bottle_count -= 1
+from print_song import song_line
+BOTTLE_COUNT = 99
+while BOTTLE_COUNT >= 0:
+    print(song_line(BOTTLE_COUNT))
+    BOTTLE_COUNT -= 1
     sleep(1)
